@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-bottom: 100px;
+}
+
+#carouselExampleInterval {
+    background-color: #fceae8;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.price {
+    color: #FF136F;
+    font-size: 2rem;
+}
+
+.btn-lg {
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    border: none;
+}
+
+.cat1 {
+    background-color: orange;
+}
+
+.cat2 {
+    background-color: orchid;
+}
+
+.cat3 {
+    background-color: blue;
+}
+
+.cat1,
+.cat2,
+.cat3 {
+    color: white;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.categories img {
+    width: 100px;
+}
+
+.card {
+    border: none;
+    box-shadow: 2px 2px 7px lightgray;
+    border-radius: 10px;
+}
+
+#contact {
+    height: 300px;
+    background-color: #fceae8;
+    border-radius: 10px;
+}
+
+#contact p {
+    color: gray;
+}
+
+.card {
+    transition-property: all;
+    transition-timing-function: ease-out;
+    transition-duration: 0.5s;
+}
+
+.card:hover {
+    transform: scale(1.05)
+}
